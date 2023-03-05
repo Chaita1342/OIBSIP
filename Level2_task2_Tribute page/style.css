@@ -1,0 +1,117 @@
+body {
+    font-family: "SF Pro Display", sans serif;
+    max-width: 1920px;
+    font-size: 16px;
+    background: linear-gradient(to right, rgba(241, 237, 237, 0), rgb(197, 235, 247),rgb(139, 217, 241));
+}
+
+h3{
+    text-align: center;
+    font-size: 4em;
+    padding: 5px;
+    margin-bottom: 4vh;
+    color: #252424;
+}
+
+img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-caption {
+    font-size: 1.250em;
+    text-align: center;
+    padding: 10px;
+}
+
+blockquote {
+    position: relative;
+}
+
+.blockquote::before {
+    content: "\275D";
+    font-size: 10em;
+    display: inline-block;
+    position: absolute;
+    top: 637px; 
+    left: 380px;
+    right: 300px;
+    opacity: 0.1;
+}
+
+.citation{
+    font-size: 2em;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0.01em;
+    margin-top: 4vh;
+    text-align: center;
+    margin-top: 10vh;
+    color: black;
+}
+
+.cite{
+    font-size: 20px;
+    margin-top: 1vh;
+    color: black;
+}
+
+.information{
+    font-family: "Poppins", "sans serif";
+}
+
+.introduction,.early_life,.apple,.np,.sr,.health{
+    margin: 80px;
+    text-align: justify;
+    padding: 30px 30px;
+    background-color: white;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 15px;
+    
+}
+
+.introduction:hover{
+    color: #332f2f;
+    transform: scale(1.005);
+}
+
+.early_life:hover{
+    color: #332f2f;
+    transform: scale(1.005);
+}
+
+.apple:hover{
+    color: #332f2f;
+    transform: scale(1.005);
+}
+
+.np:hover{
+    color: #332f2f;
+    transform: scale(1.005); 
+}
+
+.sr:hover{
+    color: #332f2f;
+    transform: scale(1.005);
+}
+
+.health:hover{
+    color: #332f2f;
+    transform: scale(1.005);
+}
+
+p{
+    font-size: 20px;
+}
+
+h4{
+    text-align: left;
+    font-size: 3em;
+    padding: 2px;
+    margin-bottom: 2vh;
+    margin-top: 1vh;;
+    color: #252424;
+}
